@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Outline&family=Montserrat:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&family=Satisfy&display=swap');
+
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(28, 28, 28);
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    border-bottom: gray 1px solid;
+}
+
+.nav-left img{
+    height: 50px;
+    width: 60px;
+}
+
+.nav-right ul li{
+    display: inline-block;
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-top: 18px;
+}
+.nav-right ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat',sans-serif;
+}
+
+
+/* hero-area */
+
+header{
+    padding-inline: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 110px;
+}
+.hero-left{
+    color: white;
+}
+
+.hero-left h2{
+    font-family: 'Satisfy',cursive;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+.hero-left h1{
+    font-family: 'Londrina Outline',sans-serif;
+    font-size: 5rem;
+    color: #50C878;
+}
+
+.hero-left button{
+    margin-top: 5px;
+    color: white;
+    font-size: 1.2rem;
+    padding: 20px;
+    padding-inline: 30px;
+    background-color: rgb(82, 199, 121,0.8);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.hero-left button a{
+    background-color: #48A567;
+    text-decoration: none;
+    color: white;
+}
+
+.hero-right img{
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    border: yellow solid 7px;
+}
+
+.text1{
+    text-align: center;
+    font-family: 'Satisfy',cursive;
+    font-size: 1.5rem;
+    color: white;
+    margin-top: 40px;
+}
+
+.text2{
+    text-align: center;
+    font-family: 'Satisfy',cursive;
+    font-size: 1.5rem;
+    color: white;
+}
+.text2 span{
+    font-family: 'Londrina Outline',sans-serif;
+    font-size: 2.5rem;
+    color: #50C878;
+    font-weight: 700;
+}
+.small-line1{
+    width:35px;
+    border:#ffff00cc 2px solid;
+    margin-inline: auto;
+    margin-block: 5px;
+}
+
+/* section-1 why choose us */
+
+.wv-Offer{
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 1.2rem;
+    margin-top: 25px;
+}
+
+#Text1{
+    font-family: 'Londrina Outline',sans-serif;
+    color: #50C878;
+    font-size: 3rem;
+}
+#Text2{
+    font-family: 'Londrina Outline',sans-serif;
+    color: yellow;
+    font-size: 3rem;
+}
+
+.center-image img{
+    margin-top: 10px;
+    height: 700px;
+    width: 1200px;
+    border: yellow 5px solid;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.center-text{
+    width: 1000px;
+    margin-inline: auto;
+    margin-top: 5px;
+}
+.center-text p{
+    font-size: 1.8rem;
+    text-align: center;
+    font-family: 'Satisfy',cursive;
+}
+.small-line2{
+    width:80px;
+    border:#ffff00cc 2px solid;
+    margin-inline: auto;
+    margin-block: 5px;
+}
+
+.small-area{
+    width: 500px;
+    margin-inline: auto;
+    display: flex;
+    /* gap: 200px; */
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+.small-area div p.count{
+    color: yellow;
+    font-size: 3rem;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 600;
+    line-height: 45px;
+}
+.small-area div p.text-count{
+    color: white;
+    font-size: 3rem;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 600;
+    line-height: 45px;
+}
+
+.testimonials-title{
+    color: yellow;
+    font-size: 2.6rem;
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Poppins',sans-serif;
+}
+
+.review1{
+    margin-top: 40px;
+    display: flex;
+    margin-inline: 200px;
+    justify-content: space-between;
+    gap: 150px;
+    align-items: center;
+}
+
+.review1 img{
+    width: 350px;
+    height: 370px;
+    border-top-right-radius: 80px;
+    border-bottom-right-radius: 80px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: yellow 4px solid;
+}
+
+.review1 h3{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 1.7rem;
+    color: white;
+}
+.review1 p{
+    font-family: 'Satisy',cursive;
+    font-size: 1.4rem;
+    color: white;
+    margin-top: 10px;
+    margin-right: 100px;
+}
+.green-line-small{
+    width:40px;
+    border:#50C878 2px solid;
+    margin-block: 5px;
+}
+.center-event-image1{
+    margin-top: 40px;
+    width: 100%;
+}
+
+.final-line{
+    margin-top: 10px;
+}
+.final-image{
+    height: 20px;
+    width: 30px;
+    margin-inline: 588px;
+}
+.footer{
+    background-color: #50C878 !important;
+    height: 60px;
+    color: white;
+    text-align: center;
+    padding-block: 20px;
+}

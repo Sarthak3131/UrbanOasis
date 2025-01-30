@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Outline&family=Montserrat:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&family=Satisfy&display=swap');
+
+
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(28, 28, 28);
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    border-bottom: gray 1px solid;
+}
+
+.nav-left img{
+    height: 50px;
+    width: 60px;
+}
+
+.nav-right ul li{
+    display: inline-block;
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-top: 18px;
+}
+.nav-right ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat',sans-serif;
+}
+
+h1{
+    color: white;
+    font-family: 'Poppins',sans-serif;
+    text-align: center;
+    margin-top: 10px;
+}
+
+h2{
+    color: white;
+    font-family: 'Poppins',sans-serif;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.green-line-small-centre{
+    width:50px;
+    border:#50C878 1px solid;
+    margin-inline: auto;
+}
+
+.fa-instagram,.fa-phone,.fa-envelope,.fa-youtube,.fa-whatsapp{
+    font-size: 1.5rem;
+    color: #50C878;
+}
+
+.insta,.phone,.email,.yt,.whatsapp{
+    margin-block: 15px;
+    margin-left: 50px;
+}
+
+.insta a,.phone a,.email a,.yt a,.whatsapp a{
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+}
+
+.footer{
+    background-color: #50C878 !important;
+    height: 60px;
+    color: white;
+    text-align: center;
+    padding-block: 20px;
+    margin-top: 436px;
+}
