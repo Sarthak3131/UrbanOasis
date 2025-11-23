@@ -1,37 +1,27 @@
-🎯 Interactive Quiz Management System (IQMS)
+🌆 UrbanOasis
 
-Flask • SQLAlchemy • Python • HTML/CSS/JS
-Timeline: Aug ‘24 – Sept ‘24
+HTML • CSS • JavaScript
+Timeline: Mar ’24 – May ’24
 
-IQMS is a full-stack quiz application designed to provide a seamless quiz-taking experience for users while giving administrators complete control over quiz content and user management through a secure dashboard.
+UrbanOasis is a front-end web application designed to centralize important information about a specific urban location. It provides a clean, responsive interface along with engaging interactive features to enhance the user experience for citizens and visitors.
 
-🚀 Features
-🔐 Admin Dashboard (Secure & Powerful)
+✨ Features
+🌐 Centralized Information Hub
 
-Full CRUD operations for managing quiz questions and user accounts
+Designed to serve as a single point of access for key information about an urban area.
 
-Add, update, delete, and view all quiz content
+Helps citizens quickly discover relevant insights, resources, and updates.
 
-Role-based access to ensure only authorized admins can modify data
+🎨 Responsive Front-End Interface
 
-👤 User Dashboard
+Built using HTML and CSS to ensure structured layouts, clean design, and accessibility.
 
-Simple and clean UI for registered users
+Fully responsive across desktops, tablets, and mobile devices.
 
-Attempt quizzes anytime
+⚡ Interactive User Experience
 
-Instant score calculation and display after quiz submission
+Enhanced responsiveness and interactivity using JavaScript.
 
-🧠 Backend & Database
+Includes a newly developed landing page with improved UX flow and visual appeal.
 
-Built using the Flask framework for routing, session handling, and business logic
-
-SQLAlchemy ORM for efficient and secure interaction with the relational database
-
-Ensures proper data persistence and integrity
-
-💡 Additional Highlights
-
-Responsive frontend with HTML, CSS, and JavaScript
-
-Secure authentication workflow for both admins and users
+Smooth navigation and dynamic elements to boost user engagement.
